@@ -4,7 +4,7 @@ Correctly guess a randomly generated number within 5 tries to win!
 
 ## Usage
 
-[Play guessTheNumber here on the GitHub page.]()
+[Play guessTheNumber here on the GitHub page.](https://am-hernandez.github.io/guessTheNumber/)
 
 Here's how to play:
 
