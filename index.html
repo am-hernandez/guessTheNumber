@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Guess The Number</h1>
+    </header>
+    <main>
+      <div class="container" id="userInputs">
+        <input type="number" id="userGuess" placeholder="enter guess here" />
+        <button id="btnGuess">Submit Guess</button>
+        <button id="btnPlay">Play</button>
+        <button id="btnHint">Hint</button>
+      </div>
+      <div class="container">
+        <h2>Previous Guesses</h2>
+        <ul id="prevGuesses">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <span id="closenessMessage" class="hidden"></span>
+      </div>
+      <div class="container" id="hintBox">
+        <h4>It's definitely one of these numbers:</h4>
+        <ul id="hintMessage"></ul>
+      </div>
+    </main>
+    <footer>developed by a.m.hernandez &copy;2021</footer>
+    <script src="js/guessTheNumber.js"></script>
+  </body>
+</html>
