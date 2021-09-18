@@ -13,6 +13,7 @@ Here's how to play:
 - If your guess is correct, you win! 🎉
 - If your guess is close to the actual secret number you will get a message stating you are getting warmer! 🌡️
 - The further from the answer your guess is the colder you will be. 🥶
+- Click the Hint button to see a list of possible answers... 🤔
 - 5 incorrect guesses is a loss. Start the game over by clicking the Play button.
 
 ## License
