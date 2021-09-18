@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  background: url(/img/coolBanana.png) center repeat #fee;
+  background: url(../img/coolBanana.png) center repeat #fee;
   background-size: 15%;
   font-family: "Raleway", sans-serif;
   color: #012a36;
