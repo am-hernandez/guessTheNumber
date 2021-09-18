@@ -72,7 +72,7 @@ class Game {
   }
   checkGuess() {
     if (this.playersGuess === this.winningNumber) {
-      return "You Win!";
+      return "You Win! 🥳";
     } else if (this.pastGuesses.includes(this.playersGuess)) {
       return "You have already guessed that number.";
     } else {
@@ -82,13 +82,13 @@ class Game {
       return "You Lose.";
     }
     if (this.difference() < 10) {
-      return "You're burning up!";
+      return "You're burning up! 🥵";
     } else if (this.difference() < 25) {
-      return "You're lukewarm.";
+      return "You're lukewarm. 😎";
     } else if (this.difference() < 50) {
-      return "You're a bit chilly.";
+      return "You're a bit chilly. 🥶";
     } else if (this.difference() < 100) {
-      return "You're ice cold!";
+      return "You're ice cold! ⛄";
     }
   }
   provideHint() {
