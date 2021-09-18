@@ -3,8 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Guess The Number</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/png" href="img/coolBanana.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>Guess The Number</title>
   </head>
 
   <body>
@@ -13,7 +20,7 @@
     </header>
     <main>
       <div class="container" id="userInputs">
-        <input type="number" id="userGuess" placeholder="enter guess here" />
+        <input type="number" id="userGuess" placeholder="enter #" />
         <button id="btnGuess">Submit Guess</button>
         <button id="btnPlay">Play</button>
         <button id="btnHint">Hint</button>
@@ -30,7 +37,7 @@
         <span id="closenessMessage" class="hidden"></span>
       </div>
       <div class="container" id="hintBox">
-        <h4>It's definitely one of these numbers:</h4>
+        <h3>It's definitely one of these numbers:</h3>
         <ul id="hintMessage"></ul>
       </div>
     </main>
